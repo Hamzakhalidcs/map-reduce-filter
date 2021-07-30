@@ -40,7 +40,7 @@ console.log(sumOfSameAge)
 // const findingAge = users.filter((x) => x.age < 30).map((x) => x.firstname);
 const findingAge = users.filter((x) => x.age < 30).map((x) => x.firstname)
 
-console.log("AGE: ", findingAge)
+console.log("AGE : ", findingAge)
 
 const findingAgeReduce = users.reduce((acc, curr) => {
   if (curr.age < 30) {
