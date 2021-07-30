@@ -35,7 +35,7 @@ const sumOfSameAge = users.reduce(function (acc, curr) {
 }, {})
 
 console.log(sumOfSameAge)
-
+//  this is  a comment 
 // function for finding the first name whose age <30 (i.e using filter and map both )
 // const findingAge = users.filter((x) => x.age < 30).map((x) => x.firstname);
 const findingAge = users.filter((x) => x.age < 30).map((x) => x.firstname)
